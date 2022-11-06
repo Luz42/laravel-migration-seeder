@@ -2,6 +2,10 @@
 
 use Illuminate\Database\Seeder;
 
+use App\Models\Train;
+
+use Faker\Generator as Faker;
+
 class TrainTableSeeder extends Seeder
 {
     /**
@@ -9,8 +13,9 @@ class TrainTableSeeder extends Seeder
      *
      * @return void
      */
-    public function run()
+    public function run(Faker $faker)
     {
         //
+
     }
 }
